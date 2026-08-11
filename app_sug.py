@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 import pickle
 
-model = joblib.load('best_gradient_boosting_model.pkl')
+model = joblib.load('best_gradient_boosting_model_sug.pkl')
 
 with open('best_gradient_boosting_model.pkl','rb') as f:
     model=pickle.load(f)
